@@ -1,3 +1,11 @@
+/*This example demonstrates a CQRS approach applied to an inventory management system.*/
+
+/* We have here 
+Interfaces (ICommand and IQuery<T>)
+Command Implementation (AddProductCommand)
+Query Implementation (GetAllProductsQuery)
+*/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
